@@ -1,0 +1,419 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D65540F3-6B50-3EEB-8939-8837086448BC}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>PROTOAPI_tests</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\popril\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PROTOAPI_tests.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PROTOAPI_tests</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <LocalDebuggerEnvironment Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PATH=;%PATH%</LocalDebuggerEnvironment>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\popril\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PROTOAPI_tests.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PROTOAPI_tests</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <LocalDebuggerEnvironment Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PATH=C:/Users/Иван/.conan2/p/b/gtestfd04c111b2267/p/bin;C:/Users/Иван/.conan2/p/protoa22af1681e305/p/bin;C:/Users/Иван/.conan2/p/zlib0e715158c1dfd/p/bin;C:/Users/Иван/.conan2/p/absei1448caa80b9eb/p/bin;%PATH%</LocalDebuggerEnvironment>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\popril\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PROTOAPI_tests.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PROTOAPI_tests</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <LocalDebuggerEnvironment Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PATH=;%PATH%</LocalDebuggerEnvironment>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\popril\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PROTOAPI_tests.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PROTOAPI_tests</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+    <LocalDebuggerEnvironment Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PATH=;%PATH%</LocalDebuggerEnvironment>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\popril;D:\popril\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProcessorNumber>20</ProcessorNumber>
+      <RuntimeLibrary></RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\popril;D:\popril\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\popril;D:\popril\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/popril/build/Debug/PROTOAPI_tests.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/popril/build/Debug/PROTOAPI_tests.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\popril;D:\popril\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Иван/.conan2/p/b/gtestfd04c111b2267/p/include" /external:I "C:/Users/Иван/.conan2/p/protoa22af1681e305/p/include" /external:I "C:/Users/Иван/.conan2/p/absei1448caa80b9eb/p/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProcessorNumber>20</ProcessorNumber>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\popril;D:\popril\src;C:\Users\Иван\.conan2\p\b\gtestfd04c111b2267\p\include;C:\Users\Иван\.conan2\p\protoa22af1681e305\p\include;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\popril;D:\popril\src;C:\Users\Иван\.conan2\p\b\gtestfd04c111b2267\p\include;C:\Users\Иван\.conan2\p\protoa22af1681e305\p\include;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Users\Иван\.conan2\p\b\gtestfd04c111b2267\p\lib\gtest.lib;C:\Users\Иван\.conan2\p\protoa22af1681e305\p\lib\libprotobuf.lib;C:\Users\Иван\.conan2\p\zlib0e715158c1dfd\p\lib\zlib.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_log_internal_check_op.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_leak_check.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_die_if_null.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_log_internal_conditions.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_log_internal_message.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_log_internal_nullguard.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_examine_stack.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_log_internal_format.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_log_internal_proto.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_log_internal_log_sink_set.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_log_sink.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_log_entry.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_flags_internal.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_flags_marshalling.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_flags_reflection.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_flags_config.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_flags_program_name.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_flags_private_handle_accessor.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_flags_commandlineflag.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_flags_commandlineflag_internal.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_log_initialize.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_log_internal_globals.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_log_globals.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_vlog_config_internal.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_log_internal_fnmatch.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_raw_hash_set.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_hash.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_city.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_low_level_hash.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_hashtablez_sampler.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_random_distributions.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_random_seed_sequences.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_random_internal_pool_urbg.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_random_internal_randen.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_random_internal_randen_hwaes.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_random_internal_randen_hwaes_impl.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_random_internal_randen_slow.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_random_internal_platform.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_random_internal_seed_material.lib;bcrypt.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_random_seed_gen_exception.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_statusor.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_status.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_cord.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_cordz_info.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_cord_internal.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_cordz_functions.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_exponential_biased.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_cordz_handle.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_crc_cord_state.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_crc32c.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_crc_internal.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_crc_cpu_detect.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_bad_optional_access.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_strerror.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_str_format_internal.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_synchronization.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_stacktrace.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_symbolize.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_debugging_internal.lib;dbghelp.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_demangle_internal.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_demangle_rust.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_decode_rust_punycode.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_utf8_for_code_point.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_graphcycles_internal.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_kernel_timeout_internal.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_malloc_internal.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_time.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_civil_time.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_time_zone.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_bad_variant_access.lib;C:\Users\Иван\.conan2\p\protoa22af1681e305\p\lib\utf8_validity.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_strings.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_int128.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_strings_internal.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_string_view.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_base.lib;advapi32.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_spinlock_wait.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_throw_delegate.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_raw_logging_internal.lib;C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\absl_log_severity.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/Иван/.conan2/p/b/gtestfd04c111b2267/p/lib;C:/Users/Иван/.conan2/p/b/gtestfd04c111b2267/p/lib/$(Configuration);C:/Users/Иван/.conan2/p/protoa22af1681e305/p/lib;C:/Users/Иван/.conan2/p/protoa22af1681e305/p/lib/$(Configuration);C:/Users/Иван/.conan2/p/zlib0e715158c1dfd/p/lib;C:/Users/Иван/.conan2/p/zlib0e715158c1dfd/p/lib/$(Configuration);C:/Users/Иван/.conan2/p/absei1448caa80b9eb/p/lib;C:/Users/Иван/.conan2/p/absei1448caa80b9eb/p/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/popril/build/Release/PROTOAPI_tests.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/popril/build/Release/PROTOAPI_tests.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\popril;D:\popril\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProcessorNumber>20</ProcessorNumber>
+      <RuntimeLibrary></RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\popril;D:\popril\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\popril;D:\popril\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/popril/build/MinSizeRel/PROTOAPI_tests.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/popril/build/MinSizeRel/PROTOAPI_tests.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\popril;D:\popril\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProcessorNumber>20</ProcessorNumber>
+      <RuntimeLibrary></RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\popril;D:\popril\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\popril;D:\popril\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/popril/build/RelWithDebInfo/PROTOAPI_tests.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/popril/build/RelWithDebInfo/PROTOAPI_tests.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\popril\build\CMakeFiles\22b7e856d9612138e9551c277909af08\mes.pb.cc.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating D:/popril/src/mes.pb.cc, D:/popril/src/mes.pb.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Windows\System32\protoc.exe --cpp_out=D:/popril/src --proto_path=D:/popril/src/protocol mes.proto
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\popril\src;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\popril\src\mes.pb.cc;D:\popril\src\mes.pb.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating D:/popril/src/mes.pb.cc, D:/popril/src/mes.pb.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Windows\System32\protoc.exe --cpp_out=D:/popril/src --proto_path=D:/popril/src/protocol mes.proto
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\popril\src;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\popril\src\mes.pb.cc;D:\popril\src\mes.pb.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating D:/popril/src/mes.pb.cc, D:/popril/src/mes.pb.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Windows\System32\protoc.exe --cpp_out=D:/popril/src --proto_path=D:/popril/src/protocol mes.proto
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\popril\src;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\popril\src\mes.pb.cc;D:\popril\src\mes.pb.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating D:/popril/src/mes.pb.cc, D:/popril/src/mes.pb.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Windows\System32\protoc.exe --cpp_out=D:/popril/src --proto_path=D:/popril/src/protocol mes.proto
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\popril\src;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\popril\src\mes.pb.cc;D:\popril\src\mes.pb.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\popril\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/popril/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\bin\cmake.exe -SD:/popril -BD:/popril/build --check-stamp-file D:/popril/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\cmake\conan_trick\cxx_std.cmake;C:\Users\Иван\.conan2\p\protoa22af1681e305\p\lib\cmake\protobuf\protobuf-conan-protoc-target.cmake;C:\Users\Иван\.conan2\p\protoa22af1681e305\p\lib\cmake\protobuf\protobuf-generate.cmake;C:\Users\Иван\.conan2\p\protoa22af1681e305\p\lib\cmake\protobuf\protobuf-module.cmake;C:\Users\Иван\.conan2\p\protoa22af1681e305\p\lib\cmake\protobuf\protobuf-options.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeCInformation.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeFindDependencyMacro.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeRCInformation.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Compiler\MSVC.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;D:\popril\build\CMakeFiles\3.30.0\CMakeCCompiler.cmake;D:\popril\build\CMakeFiles\3.30.0\CMakeCXXCompiler.cmake;D:\popril\build\CMakeFiles\3.30.0\CMakeRCCompiler.cmake;D:\popril\build\CMakeFiles\3.30.0\CMakeSystem.cmake;D:\popril\build\GTest-Target-release.cmake;D:\popril\build\GTest-release-x86_64-data.cmake;D:\popril\build\GTestConfig.cmake;D:\popril\build\GTestConfigVersion.cmake;D:\popril\build\GTestTargets.cmake;D:\popril\build\ZLIB-Target-release.cmake;D:\popril\build\ZLIB-release-x86_64-data.cmake;D:\popril\build\ZLIBConfig.cmake;D:\popril\build\ZLIBConfigVersion.cmake;D:\popril\build\ZLIBTargets.cmake;D:\popril\build\absl-Target-release.cmake;D:\popril\build\absl-config-version.cmake;D:\popril\build\absl-config.cmake;D:\popril\build\absl-release-x86_64-data.cmake;D:\popril\build\abslTargets.cmake;D:\popril\build\cmakedeps_macros.cmake;D:\popril\build\conan_toolchain.cmake;D:\popril\build\protobuf-Target-release.cmake;D:\popril\build\protobuf-config-version.cmake;D:\popril\build\protobuf-config.cmake;D:\popril\build\protobuf-release-x86_64-data.cmake;D:\popril\build\protobufTargets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\popril\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/popril/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\bin\cmake.exe -SD:/popril -BD:/popril/build --check-stamp-file D:/popril/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\cmake\conan_trick\cxx_std.cmake;C:\Users\Иван\.conan2\p\protoa22af1681e305\p\lib\cmake\protobuf\protobuf-conan-protoc-target.cmake;C:\Users\Иван\.conan2\p\protoa22af1681e305\p\lib\cmake\protobuf\protobuf-generate.cmake;C:\Users\Иван\.conan2\p\protoa22af1681e305\p\lib\cmake\protobuf\protobuf-module.cmake;C:\Users\Иван\.conan2\p\protoa22af1681e305\p\lib\cmake\protobuf\protobuf-options.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeCInformation.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeFindDependencyMacro.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeRCInformation.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Compiler\MSVC.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;D:\popril\build\CMakeFiles\3.30.0\CMakeCCompiler.cmake;D:\popril\build\CMakeFiles\3.30.0\CMakeCXXCompiler.cmake;D:\popril\build\CMakeFiles\3.30.0\CMakeRCCompiler.cmake;D:\popril\build\CMakeFiles\3.30.0\CMakeSystem.cmake;D:\popril\build\GTest-Target-release.cmake;D:\popril\build\GTest-release-x86_64-data.cmake;D:\popril\build\GTestConfig.cmake;D:\popril\build\GTestConfigVersion.cmake;D:\popril\build\GTestTargets.cmake;D:\popril\build\ZLIB-Target-release.cmake;D:\popril\build\ZLIB-release-x86_64-data.cmake;D:\popril\build\ZLIBConfig.cmake;D:\popril\build\ZLIBConfigVersion.cmake;D:\popril\build\ZLIBTargets.cmake;D:\popril\build\absl-Target-release.cmake;D:\popril\build\absl-config-version.cmake;D:\popril\build\absl-config.cmake;D:\popril\build\absl-release-x86_64-data.cmake;D:\popril\build\abslTargets.cmake;D:\popril\build\cmakedeps_macros.cmake;D:\popril\build\conan_toolchain.cmake;D:\popril\build\protobuf-Target-release.cmake;D:\popril\build\protobuf-config-version.cmake;D:\popril\build\protobuf-config.cmake;D:\popril\build\protobuf-release-x86_64-data.cmake;D:\popril\build\protobufTargets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\popril\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/popril/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\bin\cmake.exe -SD:/popril -BD:/popril/build --check-stamp-file D:/popril/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\cmake\conan_trick\cxx_std.cmake;C:\Users\Иван\.conan2\p\protoa22af1681e305\p\lib\cmake\protobuf\protobuf-conan-protoc-target.cmake;C:\Users\Иван\.conan2\p\protoa22af1681e305\p\lib\cmake\protobuf\protobuf-generate.cmake;C:\Users\Иван\.conan2\p\protoa22af1681e305\p\lib\cmake\protobuf\protobuf-module.cmake;C:\Users\Иван\.conan2\p\protoa22af1681e305\p\lib\cmake\protobuf\protobuf-options.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeCInformation.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeFindDependencyMacro.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeRCInformation.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Compiler\MSVC.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;D:\popril\build\CMakeFiles\3.30.0\CMakeCCompiler.cmake;D:\popril\build\CMakeFiles\3.30.0\CMakeCXXCompiler.cmake;D:\popril\build\CMakeFiles\3.30.0\CMakeRCCompiler.cmake;D:\popril\build\CMakeFiles\3.30.0\CMakeSystem.cmake;D:\popril\build\GTest-Target-release.cmake;D:\popril\build\GTest-release-x86_64-data.cmake;D:\popril\build\GTestConfig.cmake;D:\popril\build\GTestConfigVersion.cmake;D:\popril\build\GTestTargets.cmake;D:\popril\build\ZLIB-Target-release.cmake;D:\popril\build\ZLIB-release-x86_64-data.cmake;D:\popril\build\ZLIBConfig.cmake;D:\popril\build\ZLIBConfigVersion.cmake;D:\popril\build\ZLIBTargets.cmake;D:\popril\build\absl-Target-release.cmake;D:\popril\build\absl-config-version.cmake;D:\popril\build\absl-config.cmake;D:\popril\build\absl-release-x86_64-data.cmake;D:\popril\build\abslTargets.cmake;D:\popril\build\cmakedeps_macros.cmake;D:\popril\build\conan_toolchain.cmake;D:\popril\build\protobuf-Target-release.cmake;D:\popril\build\protobuf-config-version.cmake;D:\popril\build\protobuf-config.cmake;D:\popril\build\protobuf-release-x86_64-data.cmake;D:\popril\build\protobufTargets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\popril\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/popril/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\bin\cmake.exe -SD:/popril -BD:/popril/build --check-stamp-file D:/popril/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\cmake\conan_trick\cxx_std.cmake;C:\Users\Иван\.conan2\p\protoa22af1681e305\p\lib\cmake\protobuf\protobuf-conan-protoc-target.cmake;C:\Users\Иван\.conan2\p\protoa22af1681e305\p\lib\cmake\protobuf\protobuf-generate.cmake;C:\Users\Иван\.conan2\p\protoa22af1681e305\p\lib\cmake\protobuf\protobuf-module.cmake;C:\Users\Иван\.conan2\p\protoa22af1681e305\p\lib\cmake\protobuf\protobuf-options.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeCInformation.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeFindDependencyMacro.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeRCInformation.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Compiler\MSVC.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;D:\popril\build\CMakeFiles\3.30.0\CMakeCCompiler.cmake;D:\popril\build\CMakeFiles\3.30.0\CMakeCXXCompiler.cmake;D:\popril\build\CMakeFiles\3.30.0\CMakeRCCompiler.cmake;D:\popril\build\CMakeFiles\3.30.0\CMakeSystem.cmake;D:\popril\build\GTest-Target-release.cmake;D:\popril\build\GTest-release-x86_64-data.cmake;D:\popril\build\GTestConfig.cmake;D:\popril\build\GTestConfigVersion.cmake;D:\popril\build\GTestTargets.cmake;D:\popril\build\ZLIB-Target-release.cmake;D:\popril\build\ZLIB-release-x86_64-data.cmake;D:\popril\build\ZLIBConfig.cmake;D:\popril\build\ZLIBConfigVersion.cmake;D:\popril\build\ZLIBTargets.cmake;D:\popril\build\absl-Target-release.cmake;D:\popril\build\absl-config-version.cmake;D:\popril\build\absl-config.cmake;D:\popril\build\absl-release-x86_64-data.cmake;D:\popril\build\abslTargets.cmake;D:\popril\build\cmakedeps_macros.cmake;D:\popril\build\conan_toolchain.cmake;D:\popril\build\protobuf-Target-release.cmake;D:\popril\build\protobuf-config-version.cmake;D:\popril\build\protobuf-config.cmake;D:\popril\build\protobuf-release-x86_64-data.cmake;D:\popril\build\protobufTargets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\popril\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\popril\src\Testing\tests.cpp" />
+    <ClCompile Include="D:\popril\src\mes.pb.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\popril\build\ZERO_CHECK.vcxproj">
+      <Project>{E0D6E716-3038-3042-8BAC-8EF0530ED2C0}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E0D6E716-3038-3042-8BAC-8EF0530ED2C0}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ZERO_CHECK</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\popril;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\popril;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\popril;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\popril;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\popril\build\CMakeFiles\a2ba1bb5c1aaa2c13434dfff52164349\generate.stamp.rule">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\bin\cmake.exe -SD:/popril -BD:/popril/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/popril/build/PROTOAPI.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\cmake\conan_trick\cxx_std.cmake;C:\Users\Иван\.conan2\p\protoa22af1681e305\p\lib\cmake\protobuf\protobuf-conan-protoc-target.cmake;C:\Users\Иван\.conan2\p\protoa22af1681e305\p\lib\cmake\protobuf\protobuf-generate.cmake;C:\Users\Иван\.conan2\p\protoa22af1681e305\p\lib\cmake\protobuf\protobuf-module.cmake;C:\Users\Иван\.conan2\p\protoa22af1681e305\p\lib\cmake\protobuf\protobuf-options.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeCInformation.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeFindDependencyMacro.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeRCInformation.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Compiler\MSVC.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;D:\popril\CMakeLists.txt;D:\popril\build\CMakeFiles\3.30.0\CMakeCCompiler.cmake;D:\popril\build\CMakeFiles\3.30.0\CMakeCXXCompiler.cmake;D:\popril\build\CMakeFiles\3.30.0\CMakeRCCompiler.cmake;D:\popril\build\CMakeFiles\3.30.0\CMakeSystem.cmake;D:\popril\build\GTest-Target-release.cmake;D:\popril\build\GTest-release-x86_64-data.cmake;D:\popril\build\GTestConfig.cmake;D:\popril\build\GTestConfigVersion.cmake;D:\popril\build\GTestTargets.cmake;D:\popril\build\ZLIB-Target-release.cmake;D:\popril\build\ZLIB-release-x86_64-data.cmake;D:\popril\build\ZLIBConfig.cmake;D:\popril\build\ZLIBConfigVersion.cmake;D:\popril\build\ZLIBTargets.cmake;D:\popril\build\absl-Target-release.cmake;D:\popril\build\absl-config-version.cmake;D:\popril\build\absl-config.cmake;D:\popril\build\absl-release-x86_64-data.cmake;D:\popril\build\abslTargets.cmake;D:\popril\build\cmakedeps_macros.cmake;D:\popril\build\conan_toolchain.cmake;D:\popril\build\protobuf-Target-release.cmake;D:\popril\build\protobuf-config-version.cmake;D:\popril\build\protobuf-config.cmake;D:\popril\build\protobuf-release-x86_64-data.cmake;D:\popril\build\protobufTargets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\popril\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\bin\cmake.exe -SD:/popril -BD:/popril/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/popril/build/PROTOAPI.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\cmake\conan_trick\cxx_std.cmake;C:\Users\Иван\.conan2\p\protoa22af1681e305\p\lib\cmake\protobuf\protobuf-conan-protoc-target.cmake;C:\Users\Иван\.conan2\p\protoa22af1681e305\p\lib\cmake\protobuf\protobuf-generate.cmake;C:\Users\Иван\.conan2\p\protoa22af1681e305\p\lib\cmake\protobuf\protobuf-module.cmake;C:\Users\Иван\.conan2\p\protoa22af1681e305\p\lib\cmake\protobuf\protobuf-options.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeCInformation.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeFindDependencyMacro.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeRCInformation.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Compiler\MSVC.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;D:\popril\CMakeLists.txt;D:\popril\build\CMakeFiles\3.30.0\CMakeCCompiler.cmake;D:\popril\build\CMakeFiles\3.30.0\CMakeCXXCompiler.cmake;D:\popril\build\CMakeFiles\3.30.0\CMakeRCCompiler.cmake;D:\popril\build\CMakeFiles\3.30.0\CMakeSystem.cmake;D:\popril\build\GTest-Target-release.cmake;D:\popril\build\GTest-release-x86_64-data.cmake;D:\popril\build\GTestConfig.cmake;D:\popril\build\GTestConfigVersion.cmake;D:\popril\build\GTestTargets.cmake;D:\popril\build\ZLIB-Target-release.cmake;D:\popril\build\ZLIB-release-x86_64-data.cmake;D:\popril\build\ZLIBConfig.cmake;D:\popril\build\ZLIBConfigVersion.cmake;D:\popril\build\ZLIBTargets.cmake;D:\popril\build\absl-Target-release.cmake;D:\popril\build\absl-config-version.cmake;D:\popril\build\absl-config.cmake;D:\popril\build\absl-release-x86_64-data.cmake;D:\popril\build\abslTargets.cmake;D:\popril\build\cmakedeps_macros.cmake;D:\popril\build\conan_toolchain.cmake;D:\popril\build\protobuf-Target-release.cmake;D:\popril\build\protobuf-config-version.cmake;D:\popril\build\protobuf-config.cmake;D:\popril\build\protobuf-release-x86_64-data.cmake;D:\popril\build\protobufTargets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\popril\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\bin\cmake.exe -SD:/popril -BD:/popril/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/popril/build/PROTOAPI.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\cmake\conan_trick\cxx_std.cmake;C:\Users\Иван\.conan2\p\protoa22af1681e305\p\lib\cmake\protobuf\protobuf-conan-protoc-target.cmake;C:\Users\Иван\.conan2\p\protoa22af1681e305\p\lib\cmake\protobuf\protobuf-generate.cmake;C:\Users\Иван\.conan2\p\protoa22af1681e305\p\lib\cmake\protobuf\protobuf-module.cmake;C:\Users\Иван\.conan2\p\protoa22af1681e305\p\lib\cmake\protobuf\protobuf-options.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeCInformation.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeFindDependencyMacro.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeRCInformation.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Compiler\MSVC.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;D:\popril\CMakeLists.txt;D:\popril\build\CMakeFiles\3.30.0\CMakeCCompiler.cmake;D:\popril\build\CMakeFiles\3.30.0\CMakeCXXCompiler.cmake;D:\popril\build\CMakeFiles\3.30.0\CMakeRCCompiler.cmake;D:\popril\build\CMakeFiles\3.30.0\CMakeSystem.cmake;D:\popril\build\GTest-Target-release.cmake;D:\popril\build\GTest-release-x86_64-data.cmake;D:\popril\build\GTestConfig.cmake;D:\popril\build\GTestConfigVersion.cmake;D:\popril\build\GTestTargets.cmake;D:\popril\build\ZLIB-Target-release.cmake;D:\popril\build\ZLIB-release-x86_64-data.cmake;D:\popril\build\ZLIBConfig.cmake;D:\popril\build\ZLIBConfigVersion.cmake;D:\popril\build\ZLIBTargets.cmake;D:\popril\build\absl-Target-release.cmake;D:\popril\build\absl-config-version.cmake;D:\popril\build\absl-config.cmake;D:\popril\build\absl-release-x86_64-data.cmake;D:\popril\build\abslTargets.cmake;D:\popril\build\cmakedeps_macros.cmake;D:\popril\build\conan_toolchain.cmake;D:\popril\build\protobuf-Target-release.cmake;D:\popril\build\protobuf-config-version.cmake;D:\popril\build\protobuf-config.cmake;D:\popril\build\protobuf-release-x86_64-data.cmake;D:\popril\build\protobufTargets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\popril\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\bin\cmake.exe -SD:/popril -BD:/popril/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/popril/build/PROTOAPI.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Иван\.conan2\p\absei1448caa80b9eb\p\lib\cmake\conan_trick\cxx_std.cmake;C:\Users\Иван\.conan2\p\protoa22af1681e305\p\lib\cmake\protobuf\protobuf-conan-protoc-target.cmake;C:\Users\Иван\.conan2\p\protoa22af1681e305\p\lib\cmake\protobuf\protobuf-generate.cmake;C:\Users\Иван\.conan2\p\protoa22af1681e305\p\lib\cmake\protobuf\protobuf-module.cmake;C:\Users\Иван\.conan2\p\protoa22af1681e305\p\lib\cmake\protobuf\protobuf-options.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeCInformation.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeFindDependencyMacro.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeRCInformation.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Compiler\MSVC.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows.cmake;D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;D:\popril\CMakeLists.txt;D:\popril\build\CMakeFiles\3.30.0\CMakeCCompiler.cmake;D:\popril\build\CMakeFiles\3.30.0\CMakeCXXCompiler.cmake;D:\popril\build\CMakeFiles\3.30.0\CMakeRCCompiler.cmake;D:\popril\build\CMakeFiles\3.30.0\CMakeSystem.cmake;D:\popril\build\GTest-Target-release.cmake;D:\popril\build\GTest-release-x86_64-data.cmake;D:\popril\build\GTestConfig.cmake;D:\popril\build\GTestConfigVersion.cmake;D:\popril\build\GTestTargets.cmake;D:\popril\build\ZLIB-Target-release.cmake;D:\popril\build\ZLIB-release-x86_64-data.cmake;D:\popril\build\ZLIBConfig.cmake;D:\popril\build\ZLIBConfigVersion.cmake;D:\popril\build\ZLIBTargets.cmake;D:\popril\build\absl-Target-release.cmake;D:\popril\build\absl-config-version.cmake;D:\popril\build\absl-config.cmake;D:\popril\build\absl-release-x86_64-data.cmake;D:\popril\build\abslTargets.cmake;D:\popril\build\cmakedeps_macros.cmake;D:\popril\build\conan_toolchain.cmake;D:\popril\build\protobuf-Target-release.cmake;D:\popril\build\protobuf-config-version.cmake;D:\popril\build\protobuf-config.cmake;D:\popril\build\protobuf-release-x86_64-data.cmake;D:\popril\build\protobufTargets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\popril\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

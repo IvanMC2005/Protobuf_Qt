@@ -1,0 +1,6 @@
+D:/popril/build/CMakeFiles/generate_protobuf_files.dir
+D:/popril/build/CMakeFiles/PROTOAPI_Ex1.dir
+D:/popril/build/CMakeFiles/PROTOAPI_tests.dir
+D:/popril/build/CMakeFiles/RUN_TESTS.dir
+D:/popril/build/CMakeFiles/ALL_BUILD.dir
+D:/popril/build/CMakeFiles/ZERO_CHECK.dir

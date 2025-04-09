@@ -1,0 +1,10 @@
+^D:\POPRIL\BUILD\CMAKEFILES\A2BA1BB5C1AAA2C13434DFFF52164349\GENERATE.STAMP.RULE
+setlocal
+D:\education\cmake-3.30.0-windows-x86_64\cmake-3.30.0-windows-x86_64\bin\cmake.exe -SD:/popril -BD:/popril/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/popril/build/PROTOAPI.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
